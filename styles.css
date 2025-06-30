@@ -1,0 +1,26 @@
+/* Remove underline from navbar links */
+.navbar-nav .nav-link {
+  text-decoration: none;
+}
+
+/* Add subtle shadow to hero buttons on focus/active */
+.btn-dark:focus,
+.btn-dark:active {
+  box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.25);
+}
+
+/* Ensure main content has enough vertical space */
+main {
+  margin-bottom: 3rem;
+}
+
+/* Responsive tweaks for mobile */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  main .row > div {
+    margin-bottom: 2rem;
+  }
+}
